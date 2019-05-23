@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    text-align: center;
+}
+.body-wrapper {
+    background-color: grey;
+    border: 1px solid black;
+    display: block;
+}
+h5 {
+    font-weight: normal;
+}
+
+.navigation-container {
+    height: 60px;
+    float: right;
+    border: 1px solid black;
+}
+
+.navigation-container button {
+    margin-right: 5px;
+}
+.navigation-container h5 {
+}
+.divider {
+    height: 35px;
+    border: 1px solid black;
+}
+.form-container {
+    width: 380px;
+    border: 1px solid black;
+}
+
+.footer {
+    border: 1px solid black;
+    
+    font-size: 0.8em;
+}
+
+.footer ul {
+    list-style: none;
+    display: block;
+}
+    
