@@ -42,8 +42,16 @@ a {
 }
 .navigation input {
     margin-left: 10px;
-    padding: 6px 25px;
+    padding: 6px 30px;
     height: 35px;
+}
+
+#sign-in {
+    background-color: #0077C5;
+    color: white;
+    font-size: 14px;
+    border: 1px solid darkgrey;
+    border-radius: 3px;
 }
  /* FORM WRAPPER */
 .form-wrapper {
@@ -67,13 +75,8 @@ a {
 .form-description h2 {
     padding-bottom: 20px;
     font-weight: 500;
-    color: rgb(76, 76, 76);
+    color: rgb(56, 56, 56);
 }
- .bottom {
-    color: rgb(76, 76, 76);
-    font-size: 13px;
-}
-
  /* FORM STYLING */
 form {
     text-align: start;
@@ -83,18 +86,23 @@ form > label {
 }
 form input {
     width: 97%;
-    line-height: 25px;
+    border-radius: 4px;
+    line-height: 32px;
     padding: 0px;
-    font-size-adjust: inherit;
     margin: 6px 10px 26px 0px;
     border-color: rgb(193, 197, 200);
     border-width: 1px;
     border-style: double;
-    border-radius: 3px;
 }
 #email, #phone, #password {
     padding-left: 10px;
+
 }
+#email:active, #phone:active, #password:active
+    {
+    box-shadow: 1px 1px 10px black;
+    }
+
 #submit {
     box-sizing: border-box;
     height: 44px;
